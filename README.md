@@ -2,7 +2,8 @@
 # ESP32 Sensor Data with MQTT
 
 This project utilizes an **ESP32** microcontroller to collect data from two sensors: a **DHT22** (for temperature and humidity) and an **MQ-135** (for air quality). The sensor readings are published to an MQTT broker for remote monitoring.
-
+## Link to the project
+https://wokwi.com/projects/410030825523266561
 ## Components
 
 - **ESP32**: The microcontroller used to run the code.
