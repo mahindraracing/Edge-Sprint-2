@@ -8,7 +8,7 @@ https://wokwi.com/projects/410030825523266561
 
 - **ESP32**: The microcontroller used to run the code.
 - **DHT22**: A sensor for measuring temperature and humidity.
-- **MQ-135**: A sensor for measuring air quality (CO2, smoke, etc.).
+- **MQ-135/Potentiometer (because wokwi doesn't have the MQ-135)**: A sensor for measuring air quality (CO2, smoke, etc.).
 - **MQTT Broker**: The server that receives the sensor data.
 
 ## Libraries Used
