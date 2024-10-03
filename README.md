@@ -1,21 +1,26 @@
-# Members
-Caio S. F. da Silva: RM 554763   
-Matheus R. Montovaneli: RM 555499
-Lucas Vasquez Silva: RM 555159
-Guilherme L. F. R. Gozzi: RM 555768
-André Nakamatsu Rocha: RM 555004 
-
 
 # ESP32 Sensor Data with MQTT
 
+**Project Members:**
+- **Caio Suzano Ferreira da Silva**: RM 554763
+- **Matheus Rivera Montovaneli**: RM 555499
+- **Lucas Vasquez Silva**: RM 555159
+- **Guilherme Linard F. R. Gozzi**: RM 555768
+- **André Nakamatsu Rocha**: RM 555004
+
+---
+
 This project utilizes an **ESP32** microcontroller to collect data from two sensors: a **DHT22** (for temperature and humidity) and an **MQ-135** (for air quality). The sensor readings are published to an MQTT broker for remote monitoring.
-## Link to the project
-https://wokwi.com/projects/410030825523266561
+
+## Link to the Project
+
+[Wokwi Simulation](https://wokwi.com/projects/410030825523266561)
+
 ## Components
 
 - **ESP32**: The microcontroller used to run the code.
 - **DHT22**: A sensor for measuring temperature and humidity.
-- **MQ-135/Potentiometer (because wokwi doesn't have the MQ-135)**: A sensor for measuring air quality (CO2, smoke, etc.).
+- **MQ-135/Potentiometer** (as Wokwi doesn't have the MQ-135): A sensor for measuring air quality (CO2, smoke, etc.).
 - **MQTT Broker**: The server that receives the sensor data.
 
 ## Libraries Used
@@ -158,6 +163,7 @@ This project is open-source and can be freely modified. Attribution is appreciat
 - **Wi-Fi not connecting?** Ensure your Wi-Fi credentials (SSID and password) are correct.
 - **MQTT broker connection issues?** Verify the broker address, network access, and that the broker is running.
 - **Incorrect sensor readings?** Check the wiring and connections to the DHT22 and MQ-135 sensors.
+
 ## Node-RED Integration
 
 This project requires **Node-RED** to handle, visualize, and process the sensor data received from the ESP32 via MQTT.
@@ -170,7 +176,4 @@ This project requires **Node-RED** to handle, visualize, and process the sensor 
 
 1. **Install Node-RED**: You can install Node-RED by following the official instructions [here](https://nodered.org/docs/getting-started/).
 
-2. **MQTT Integration in Node-RED**:
-   - Once Node-RED is running, you can install the **MQTT** nodes to subscribe to the topics where your ESP32 is publishing data.
-   - In the Node-RED interface, use the **MQTT in** node to subscribe to the `Azure/Temperature`, `Azure/Humidity`, and `Azure/AirQuality` topics.
-
+---
